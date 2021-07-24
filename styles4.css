@@ -96,7 +96,7 @@ html, body {
 .footer {
     grid-column: 1;
     grid-row: 14/15;
-    height: 10vh;
+    margin: 1em;
 }
 
 .content {
