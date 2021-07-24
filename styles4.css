@@ -5,7 +5,7 @@ html, body {
 .grid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr 1fr 11fr 2fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 11fr;
     justify-items: stretch;
     align-items: stretch;
     margin: 1em;
@@ -79,7 +79,7 @@ html, body {
 .main {
     display: grid;
     grid-template-columns: 2fr 7fr 1fr;
-    grid-row: 4/12;
+    grid-row: 4/16;
     height: 100%;
 }
 
