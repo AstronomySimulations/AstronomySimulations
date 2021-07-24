@@ -1,6 +1,5 @@
 
 html, body {
-    height: 100%;
 }
 
 .grid {
@@ -10,6 +9,7 @@ html, body {
     justify-items: stretch;
     align-items: stretch;
     margin: 1em;
+    min-height: 100%;
 }
 
 .grid > div {
