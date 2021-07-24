@@ -1,4 +1,7 @@
 
+html, body {
+    height: 100%;
+}
 
 .grid {
     display: grid;
@@ -101,6 +104,7 @@
     display: flex;
     align-self: stretch;
     grid-row: 12/14;
+    height: auto;
 }
 
 .astronomysimulations {
