@@ -97,14 +97,11 @@ html, body {
     grid-column: 1;
     grid-row: 14/15;
     height: 10vh;
-    align-self: flex-start;
 }
 
 .content {
     display: flex;
-    align-self: stretch;
     grid-row: 12/14;
-    height: auto;
 }
 
 .astronomysimulations {
