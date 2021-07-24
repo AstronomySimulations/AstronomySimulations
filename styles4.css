@@ -80,6 +80,7 @@ html, body {
     display: grid;
     grid-template-columns: 2fr 7fr 1fr;
     grid-row: 4/12;
+    height: 100%;
 }
 
 .left-column {
@@ -102,6 +103,8 @@ html, body {
 .content {
     display: flex;
     grid-row: 12/14;
+    margin: 1em;
+    height: 30vh;
 }
 
 .astronomysimulations {
