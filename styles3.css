@@ -3,10 +3,10 @@
 .grid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 8fr 2fr 1fr;
     justify-items: stretch;
     align-items: stretch;
-    height: auto;
+    margin: 1em;
 }
 
 .grid > div {
@@ -44,13 +44,39 @@
 }
 
 .header {
+    display: flex;
     grid-row: 1/2;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Calibri;
+    font-size: 30px;
+    font-weight: bold;
+    color: skyblue;
+}
+
+.subheader {
+    display: flex;
+    grid-row: 2/3;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: Calibri;
+    font-size: 15px;
+}
+
+.pageheader {
+    display: flex;
+    grid-row: 3/4;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    font-family: Calibri;
+    font-size: 20px;
 }
 
 .main {
     display: grid;
     grid-template-columns: 2fr 7fr 1fr;
-    height: 70vh
+    grid-row: 4/12;
 }
 
 .left-column {
@@ -66,12 +92,31 @@
 
 .footer {
     grid-column: 1;
-    grid-row: 10;
+    grid-row: 14/15;
     height: 10vh;
     align-self: flex-start;
 }
 
-.column {
+.content {
+    display: flex;
+    align-self: stretch;
+    grid-row: 12/14;
+}
+
+.astronomysimulations {
+    display: flex;
+    order: 2;
+    align-self: center;
+    padding: 1em;
+    
+}
+
+.home {
+    display: flex;
+    order: 1;
+    align-self: center;
+    padding: 1em;
+    
 }
 
 
